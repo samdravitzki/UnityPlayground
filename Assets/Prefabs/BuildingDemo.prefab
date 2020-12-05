@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2400985416003200271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2400985416003200269}
+  - component: {fileID: 2400985416003200270}
+  - component: {fileID: 3795509317409727445}
+  m_Layer: 0
+  m_Name: BuildingDemo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2400985416003200269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2400985416003200271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2400985416003200270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2400985416003200271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e1f659ef4efd34285782a3b149dc59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3795509317409727445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2400985416003200271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a765f51ff7d9b764fbc065bce941cfc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorPrefab: {fileID: -4216859302048453862, guid: 36c81a6481b202145a9402d7594955f6,
+    type: 3}
+  wallPrefab:
+  - {fileID: -4216859302048453862, guid: 99ac6e35815e8fc40894a94102d263f7, type: 3}
+  - {fileID: -4216859302048453862, guid: 89da1ea0d34a7c94fbe74abbb98290b4, type: 3}
+  - {fileID: -4216859302048453862, guid: 8cd44f58ad8ceab4c818f788e86d441e, type: 3}
+  - {fileID: -4216859302048453862, guid: 49baeab2f218b87488af409507b2665b, type: 3}
+  - {fileID: -4216859302048453862, guid: e6908add3e4fc414bba46cdf42f57e97, type: 3}
+  roofPrefab:
+  - {fileID: -4216859302048453862, guid: bcb7026f8e689664b92457e0b8fd5579, type: 3}
+  - {fileID: -4216859302048453862, guid: 0fd14b60dd183a346b14213cfc45731b, type: 3}
+  - {fileID: -4216859302048453862, guid: 76fde439686d7d34f8a0dc20e68f8249, type: 3}
+  - {fileID: -4216859302048453862, guid: 7e4de2bf93f436b4fbf517da02709166, type: 3}
+  - {fileID: -4216859302048453862, guid: 54d8f878e85b336448ac8410e366b377, type: 3}
+  - {fileID: -4216859302048453862, guid: ffd339025c8ae9647a2094e2ac4697b9, type: 3}
+  - {fileID: -4216859302048453862, guid: 587f68faabca2e045aa3b725a0c2c9ac, type: 3}
+  - {fileID: -4216859302048453862, guid: 5e49a487f14499d408e8c23aca82d12d, type: 3}
