@@ -33,9 +33,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController/SimpleFPController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController/FPPlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Infinity/LoopWithinBounds.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Grid/VoxelGrid/VoxelRenderer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Grid/VoxelGrid/VoxelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Infinity/Instancing/GridInstance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Grid/VoxelGrid/VoxelRenderer.cs" />
       </list>
     </option>
   </component>
@@ -95,7 +95,7 @@
       <workItem from="1600248714742" duration="6059000" />
       <workItem from="1600497128657" duration="9883000" />
       <workItem from="1605868301009" duration="22661000" />
-      <workItem from="1607141739145" duration="14860000" />
+      <workItem from="1607141739145" duration="14920000" />
     </task>
     <servers />
   </component>

@@ -32,7 +32,7 @@ namespace Grid.VoxelGrid
         {
             pointField = new PointField3D(
                 size.x, size.y, size.z,
-                (x, y, z) => y == 0 // && x % 2 == 0 && z % 2 == 0// && (x >= 4 && x <= 6 && z >= 4 && z <= 6)
+                (x, y, z) => y == 0 && (x >= 3 && x <= 7 && z >= 4 && z <= 6) // && x % 2 == 0 && z % 2 == 0
             );
             UpdateMesh();
         }
