@@ -9,6 +9,7 @@ using UnityEngine.Rendering;
 
 namespace Grid.VoxelGrid
 {
+    // The voxel controller updates a given VoxelRenderers pointfeild based on input
     [RequireComponent(typeof(VoxelRenderer))]
     public class VoxelController : MonoBehaviour
     {
@@ -51,8 +52,8 @@ namespace Grid.VoxelGrid
                 selectorPlane.transform.rotation = Quaternion.LookRotation(hit.normal);
                 selectedGridPos = VoxelUtils.VoxelToPointFieldSpace(gridPos + VoxelUtils.ToVector3Int(hit.normal), voxelRenderer.pointField.Size);
                 
-                
-                // Debug.Log($" Grid: {gridPos}, Mouse: {worldClickPos}, Mouse + Grid: {worldGridPos}, Normal: {hit.normal}, FinalPos: {worldGridPos + hit.normal * selectorOffset}");
+                // Update the mesh after changing the pointfeild
+                voxelRenderer.UpdateMesh();
             }
             else
             {

@@ -43,7 +43,7 @@
           <e p="SimpleFPSController.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
-          <e p="SkyboxGradient.shader" t="Include" />
+          <e p="Skybox Gradient.shader" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

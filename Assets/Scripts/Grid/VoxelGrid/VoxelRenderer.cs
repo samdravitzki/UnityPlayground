@@ -5,9 +5,8 @@ using System.Linq;
 
 namespace Grid.VoxelGrid
 {
-    // Future Refactor: Factor rendering component into its own class, then create Renderer author component with point feild, cellsize and offset seperated
-    // Future Refactor: remove all reference to point feild from this class
-    // Render Voxels to a point feild
+    // Renders a given point feild as a voxel mesh
+    [ExecuteInEditMode] // Sureley there is a better solution where I can click a button or something in the future
     [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer), typeof(MeshCollider))]
     public class VoxelRenderer : MonoBehaviour // Renders a chunk based on a given point feild
     {
@@ -24,7 +23,8 @@ namespace Grid.VoxelGrid
 
         void Awake()
         {
-            mesh = GetComponent<MeshFilter>().sharedMesh;
+            mesh = GetComponent<MeshFilter>().sharedMesh = new Mesh();
+            mesh.name = "Voxel Mesh";
             _collider = GetComponent<MeshCollider>();
         }
 
@@ -34,11 +34,11 @@ namespace Grid.VoxelGrid
                 size.x, size.y, size.z,
                 (x, y, z) => y == 0 // && x % 2 == 0 && z % 2 == 0// && (x >= 4 && x <= 6 && z >= 4 && z <= 6)
             );
-
+            UpdateMesh();
         }
         
         
-        public void Update()
+        public void UpdateMesh()
         {
             var meshVox = new VoxelMesh(pointField, cellSize);
             meshVox.GenerateMesh();
