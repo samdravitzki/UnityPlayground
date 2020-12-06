@@ -24,6 +24,9 @@
             </e>
           </e>
           <e p="Infinity" t="Include">
+            <e p="Instancing" t="Include">
+              <e p="GridInstance.cs" t="Include" />
+            </e>
             <e p="LoopConfiguration.cs" t="Include" />
             <e p="LoopWithinBounds.cs" t="Include" />
           </e>

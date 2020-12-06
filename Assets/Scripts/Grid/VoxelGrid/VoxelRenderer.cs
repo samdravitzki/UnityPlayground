@@ -20,7 +20,7 @@ namespace Grid.VoxelGrid
         public Vector3Int size;
         public float cellSize = 1f;
 
-
+        public Mesh VoxelMesh => mesh;
         void Awake()
         {
             mesh = GetComponent<MeshFilter>().sharedMesh = new Mesh();

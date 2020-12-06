@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Grid;
 using Grid.VoxelGrid;
+using Infinity;
 using Unity.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -11,10 +12,12 @@ namespace Grid.VoxelGrid
 {
     // The voxel controller updates a given VoxelRenderers pointfeild based on input
     [RequireComponent(typeof(VoxelRenderer))]
+    [RequireComponent(typeof(Infinity.Instancing.GridInstance))]
     public class VoxelController : MonoBehaviour
     {
 
         private VoxelRenderer voxelRenderer;
+        private Infinity.Instancing.GridInstance instancer;
         /* positive values will give you the block position you are hitting,
         negative values will give you the block position adjacent
         to the block you are hitting */
@@ -31,6 +34,7 @@ namespace Grid.VoxelGrid
         void Awake()
         {
             voxelRenderer = GetComponent<VoxelRenderer>();
+            instancer = GetComponent<Infinity.Instancing.GridInstance>();
             selectorPlane.transform.localScale *= voxelRenderer.cellSize;
         }
 
@@ -54,6 +58,8 @@ namespace Grid.VoxelGrid
                 
                 // Update the mesh after changing the pointfeild
                 voxelRenderer.UpdateMesh();
+                if (voxelRenderer.VoxelMesh != null)
+                    instancer.UpdateMesh(voxelRenderer.VoxelMesh);
             }
             else
             {

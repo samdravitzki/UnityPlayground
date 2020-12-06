@@ -14,19 +14,19 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.69411767, g: 0.909804, b: 0.9568628, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.7781684, g: 0.7923638, b: 0.8207547, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d5ced7848426fb3489b155b9364f50f9, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,13 +38,13 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.4947229, g: 0.8268246, b: 0.92833245, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -71,7 +71,7 @@ LightmapSettings:
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
-    m_MixedBakeMode: 2
+    m_MixedBakeMode: 1
     m_BakeBackend: 1
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
@@ -97,8 +97,9 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingDataAsset: {fileID: 112000000, guid: 85b16e5f4afb74a4ab47006af365dae5,
+    type: 2}
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -376,13 +377,19 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &464213907
+--- !u!20 &634038826 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 634038826, guid: d6990f8a783b77a4bbf2114a41107010,
+    type: 3}
+  m_PrefabInstance: {fileID: 4196303192291907585}
+  m_PrefabAsset: {fileID: 0}
+--- !u!43 &920487385
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VoxelMesh Instance Instance Instance Instance Instance Instance Instance
+  m_Name: Voxel Mesh
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -539,35 +546,13 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &507907223 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4196303192588635484, guid: d6990f8a783b77a4bbf2114a41107010,
-    type: 3}
-  m_PrefabInstance: {fileID: 4196303192291907585}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &507907228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507907223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 780f9ba120649ac45a0cf23913d27453, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  settings: {fileID: 1436122384}
-  m_drawRays: 1
-  lookSpeed: 2
-  jumpKey: 32
 --- !u!1 &984891347 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 62457113630059944, guid: c55a9b05358a9f842bef22949440c6c0,
     type: 3}
   m_PrefabInstance: {fileID: 62457112917807739}
   m_PrefabAsset: {fileID: 0}
---- !u!134 &1200683202
+--- !u!134 &1142759208
 PhysicMaterial:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -579,27 +564,7 @@ PhysicMaterial:
   bounciness: 0
   frictionCombine: 1
   bounceCombine: 0
---- !u!114 &1263894735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a9c0f3f94934849ac19a53aabd6cfad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Player
-  Tag: Tag
-  Radius: 0.35
-  Height: 1.75
-  WalkSpeed: 5
-  MaxSlopeAngle: 45
-  MaxFriction: 20
-  JumpForce: 5
---- !u!114 &1436122384
+--- !u!114 &1599622503
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -638,7 +603,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1679245440
 AudioListener:
   m_ObjectHideFlags: 0
@@ -789,6 +754,7 @@ GameObject:
   - component: {fileID: 1742831290}
   - component: {fileID: 1742831289}
   - component: {fileID: 1742831294}
+  - component: {fileID: 1742831293}
   m_Layer: 0
   m_Name: VoxelMesh
   m_TagString: Untagged
@@ -856,7 +822,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742831288}
-  m_Mesh: {fileID: 464213907}
+  m_Mesh: {fileID: 920487385}
 --- !u!4 &1742831292
 Transform:
   m_ObjectHideFlags: 0
@@ -871,6 +837,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1742831293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742831288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e354ff56a1014074ea27e6164f73429b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instancesPerAxis: 10
+  instancedMesh: {fileID: 0}
+  instancableMaterial: {fileID: 2100000, guid: 5d82f5f4fb1c9e541b39983d906d15fa, type: 2}
+  settings: {fileID: 11400000, guid: b97d1c8eb6fc42544b7dce281f93e31a, type: 2}
 --- !u!114 &1742831294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -887,6 +869,7 @@ MonoBehaviour:
   selectorPlane: {fileID: 984891347}
   selectorOffset: 0.1
   selectedGridPos: {x: 0, y: 0, z: 0}
+  _selctionCamera: {fileID: 634038826}
 --- !u!64 &1742831295
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -900,7 +883,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 464213907}
+  m_Mesh: {fileID: 920487385}
 --- !u!1001 &62457112917807739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1232,6 +1215,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 507907224, guid: d6990f8a783b77a4bbf2114a41107010, type: 3}
+      propertyPath: settings
+      value: 
+      objectReference: {fileID: 1599622503}
     - target: {fileID: 4196303192588635484, guid: d6990f8a783b77a4bbf2114a41107010,
         type: 3}
       propertyPath: m_Name
@@ -1241,12 +1228,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 1200683202}
-    - target: {fileID: 4196303192588635487, guid: d6990f8a783b77a4bbf2114a41107010,
-        type: 3}
-      propertyPath: settings
-      value: 
-      objectReference: {fileID: 1263894735}
+      objectReference: {fileID: 1142759208}
     - target: {fileID: 4196303192588635488, guid: d6990f8a783b77a4bbf2114a41107010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1302,14 +1284,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4196303192588635491, guid: d6990f8a783b77a4bbf2114a41107010,
-        type: 3}
-      propertyPath: settings
-      value: 
-      objectReference: {fileID: 11400000, guid: b97d1c8eb6fc42544b7dce281f93e31a,
-        type: 2}
-    m_RemovedComponents:
-    - {fileID: 4196303192588635487, guid: d6990f8a783b77a4bbf2114a41107010, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6990f8a783b77a4bbf2114a41107010, type: 3}
 --- !u!1001 &6571424282241552687
 PrefabInstance:
