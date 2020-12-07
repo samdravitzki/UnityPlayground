@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="355fd906-95aa-419d-aebc-df04861ba8e9" name="Default Changelist" comment="" />
+    <list default="true" id="355fd906-95aa-419d-aebc-df04861ba8e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProcedualGrammars/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProcedualGrammars/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProcedualGrammars/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProcedualGrammars/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProcedualGrammars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProcedualGrammars/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VoxelInputTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VoxelInputTestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FirstPersonConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FirstPersonConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/VoxelGrid/VoxelRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/VoxelGrid/VoxelRenderer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Infinity/LoopWithinBounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Infinity/LoopWithinBounds.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleFPSController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleFPSController.cs.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grid/VoxelGrid/VoxelRenderer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimpleFPSController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController/FPPlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/35BAB3C7-B0DC-4999-845B-CFCCC7758D96/47/f4252f8a/Event.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1245D947-A91B-4A14-B7C7-E2C7335512B2/f4/21065a76/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
@@ -32,9 +47,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FirstPersonConfiguration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController/SimpleFPController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController/FPPlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Infinity/LoopWithinBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Grid/VoxelGrid/VoxelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Infinity/Instancing/GridInstance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infinity/LoopWithinBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Grid/VoxelGrid/VoxelRenderer.cs" />
       </list>
     </option>
@@ -68,10 +83,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="30004">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="30004" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -95,7 +110,8 @@
       <workItem from="1600248714742" duration="6059000" />
       <workItem from="1600497128657" duration="9883000" />
       <workItem from="1605868301009" duration="22661000" />
-      <workItem from="1607141739145" duration="14920000" />
+      <workItem from="1607141739145" duration="16557000" />
+      <workItem from="1607327379302" duration="403000" />
     </task>
     <servers />
   </component>

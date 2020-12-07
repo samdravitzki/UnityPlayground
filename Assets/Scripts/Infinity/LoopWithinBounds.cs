@@ -21,17 +21,17 @@ namespace Infinity
         void Update()
         {
             var pos = transform.position;
-            if (pos.y > LoopBounds.max.y)
+            if (pos.y >= LoopBounds.max.y)
                 transform.position = ToBottom(transform.position);
-            if (pos.y < LoopBounds.min.y)
+            if (pos.y <= LoopBounds.min.y)
                 transform.position = ToTop(transform.position);
-            if (pos.z > LoopBounds.max.z)
+            if (pos.z >= LoopBounds.max.z)
                 transform.position = ToBackward(transform.position);
-            if (pos.z < LoopBounds.min.z)
+            if (pos.z <= LoopBounds.min.z)
                 transform.position = ToForward(transform.position);
-            if (pos.x > LoopBounds.max.x)
+            if (pos.x >= LoopBounds.max.x)
                 transform.position = ToLeft(transform.position);
-            if (pos.x < LoopBounds.min.x)
+            if (pos.x <= LoopBounds.min.x)
                 transform.position = ToRight(transform.position);
         }
 
