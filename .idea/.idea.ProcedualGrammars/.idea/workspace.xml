@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355fd906-95aa-419d-aebc-df04861ba8e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProcedualGrammars/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProcedualGrammars/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProcedualGrammars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProcedualGrammars/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Infinity/LoopWithinBounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Infinity/LoopWithinBounds.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterController/FPPlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterController/FPPlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +56,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController/FPPlayerssController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FirstPersonConfiguration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController/SimpleFPController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController/FPPlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Grid/VoxelGrid/VoxelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Infinity/Instancing/GridInstance.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Grid/VoxelGrid/VoxelRenderer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Infinity/InfinityUntilities.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Infinity/LoopWithinBounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController/FPPlayerController.cs" />
       </list>
     </option>
   </component>

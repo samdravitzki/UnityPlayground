@@ -87,7 +87,7 @@ namespace FPController
         protected void Update()
         {
             // Update the camera each frame
-            UpdateCamera();
+            SetCamera(); // UpdateCamera(); // Switch to UpdateCamera() for more complex camera functionality
         }
 
         protected void FixedUpdate()
