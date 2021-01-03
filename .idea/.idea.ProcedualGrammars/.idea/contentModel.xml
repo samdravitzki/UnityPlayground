@@ -24,6 +24,7 @@
             </e>
           </e>
           <e p="Infinity" t="Include">
+            <e p="InfinityUntilities.cs" t="Include" />
             <e p="Instancing" t="Include">
               <e p="GridInstance.cs" t="Include" />
             </e>
